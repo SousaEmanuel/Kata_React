@@ -1,0 +1,27 @@
+.video-thumbnail-container {
+  display: flex;
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.video-thumbnail-container:hover {
+  background-color: rgb(232, 192, 192);
+}
+
+.video-thumbnail-name {
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0 3px;
+}
+
+.video-thumbnail-view-count {
+  font-size: 12px;
+}
+
+.video-description-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4px;
+}
