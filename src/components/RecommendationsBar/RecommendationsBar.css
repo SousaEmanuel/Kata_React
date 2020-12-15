@@ -1,0 +1,7 @@
+.recommendations-list {
+  padding: 0 5px;
+  margin-left: 10px;
+  height: 450px;
+  overflow: auto;
+  border-left: gray 1px solid;
+}

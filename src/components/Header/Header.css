@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin: 5px 10px;
+  height: 30px;
+  padding: 0 10%;
+}
+
+.youtube-caption {
+  font-weight: bold;
+  margin: 0 2px;
+}
+
+.header-divider {
+  margin: 0;
+  width: 100%;
+}
