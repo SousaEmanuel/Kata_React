@@ -6,13 +6,7 @@ import { MARIA_LEAL_PLAYLIST } from "../../assets/mariaLealPlaylist";
 import "./MainBoard.css";
 
 const MainBoard = () => {
-  const [currVideoId, setCurrVideoId] = useState(
-    Object.keys(MARIA_LEAL_PLAYLIST)[0]
-  );
-
-  const onRecommendationClick = (clickedVideoId) => {
-    setCurrVideoId(clickedVideoId);
-  };
+  const [currVideoId] = useState(Object.keys(MARIA_LEAL_PLAYLIST)[0]);
 
   return (
     <div className="main-board">
@@ -20,7 +14,7 @@ const MainBoard = () => {
         <VideoPlayer id={currVideoId} />
       </div>
       <div className="recommendations-bar-container">
-        <RecommendationsBar onRecommendationClick={onRecommendationClick} />
+        <RecommendationsBar />
       </div>
     </div>
   );
